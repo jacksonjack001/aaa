@@ -11,9 +11,13 @@
 后小互换改标签<br>
 一轮未变已排完<br>
 ```python
-def bubble(arr):
-    
-
+def bubble(self, arr):
+    n = len(arr)
+    for i in range(1, n):
+        for j in range(n - i):
+            if self.compare(arr[j], arr[j + 1]):
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+    return arr
 ```
 
 2. 快速排序<br>
