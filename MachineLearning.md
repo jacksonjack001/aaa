@@ -1,4 +1,4 @@
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\int_{a}^{b}f(x)dx" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\int_{a}^{b}f(x)dx" title="\int_{a}^{b}f(x)dx" /></a>
 
 
 1. 贝叶斯<br>
