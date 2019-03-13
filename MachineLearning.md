@@ -5,9 +5,9 @@ P(w)先验类频率，先验概率<br>
 P(x|w)条件找样本<br>
 P(w|x)后验判类别，x在w上的后验概率<br>
 
-$$P(x,w)=P(w)P(x|w)=P(x)P(w|x)$$
+$P(x,w)=P(w)P(x|w)=P(x)P(w|x)$
 
-$$P(w)P(x|w) \approx  P(w|x)$$
+$P(w)P(x|w) \approx  P(w|x)$
 
 通常认为P(x)都是固定的或者说$\frac{1}{n}$基本都相同，因为样本一般会有差异而且不同，而类别一般会出现重复<br>
 
