@@ -5,7 +5,7 @@ P(w)先验类频率，先验概率<br>
 P(x|w)条件找样本<br>
 P(w|x)后验判类别，x在w上的后验概率<br>
 
-$P(x,w)=P(w)P(x|w)=P(x)P(w|x)$
+$$P(x,w)=P(w)P(x|w)=P(x)P(w|x)$$
 
 $P(w)P(x|w) \approx  P(w|x)$
 
@@ -49,7 +49,7 @@ HMM模型一般需要根据规则、初始状态分布、观测概论分布，
 
 梯度爆炸一般靠裁剪后的优化算法即可解决，
 比如gradient clipping(如果梯度的范数大于某个给定值，将梯度同比收缩)。
-$S_t = f(W*(S_{t-1}，X_t)+b)$
+$$S_t = f(W*(S_{t-1}，X_t)+b)$$
 $S_t = f_t*S_{t-1}+i_t*f(S_{t-1})$
 
 （1）原始的lstm是没有forget gate的，或者说相当于forget gate恒为1，所以不存在梯度消失问题
