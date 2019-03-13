@@ -1,3 +1,6 @@
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+
+
 1. 贝叶斯<br>
 w类别<br>
 x样本<br>
